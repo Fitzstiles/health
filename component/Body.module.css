@@ -30,6 +30,11 @@
     padding: 5px 20px;
 }
 
+.right__container {
+    width: 100%;
+    overflow: hidden;
+}
+
 .rightContainerImg {
     width: 400px;
     height: 400px;
@@ -44,9 +49,15 @@
 @media screen and (max-width:600px) {
     .body__container {
         flex-direction: column;
+        max-width: 90%;
     }
 
     .right__container {
         margin-top: 40px;
     }
+
+    /* 
+    .left_container {
+        text-align: center;
+    } */
 }
