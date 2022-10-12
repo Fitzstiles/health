@@ -55,4 +55,14 @@
     .links {
         display: none;
     }
+
+    .logo {
+        padding-left: 10px;
+        border: none;
+    }
+
+    .register {
+        padding-right: 10px;
+        border: none;
+    }
 }
