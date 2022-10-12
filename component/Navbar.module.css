@@ -1,0 +1,58 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid white;
+    margin-bottom: 10px;
+}
+
+.links {
+    display: flex;
+    gap: 40px;
+}
+
+.links a {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.logo {
+    padding: 40px 20px;
+    border-right: 1px solid white;
+}
+
+.logo p {
+    color: #95DB00;
+}
+
+.logo span {
+    color: #7E00E1;
+}
+
+.register {
+    display: flex;
+    align-items: center;
+    padding: 40px 20px;
+    border-left: 1px solid white;
+}
+
+.register svg {
+    color: white;
+    background-color: #7E00E1;
+    padding: 6px 8px;
+    cursor: pointer;
+}
+
+.register a {
+    background-color: #95DB00;
+    padding: 5px 8px;
+    color: black;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width:822px) {
+    .links {
+        display: none;
+    }
+}
