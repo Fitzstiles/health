@@ -5,6 +5,7 @@
     margin: auto;
     text-transform: uppercase;
     padding-top: 20px;
+    align-items: center;
 }
 
 .left_container p {
@@ -30,10 +31,10 @@
     padding: 5px 20px;
 }
 
-.right__container {
+/* .right__container {
     width: 100%;
     overflow: hidden;
-}
+} */
 
 .rightContainerImg {
     width: 400px;
@@ -46,18 +47,24 @@
     object-fit: contain;
 }
 
-@media screen and (max-width:600px) {
+/* @media screen and (max-width:1078px) {
+    .body__container {
+        max-width: 95%;
+    }
+} */
+
+@media screen and (max-width:802px) {
     .body__container {
         flex-direction: column;
+        justify-content: center;
         max-width: 90%;
+    }
+
+    .left_container {
+        max-width: 500px;
     }
 
     .right__container {
         margin-top: 40px;
     }
-
-    /* 
-    .left_container {
-        text-align: center;
-    } */
 }

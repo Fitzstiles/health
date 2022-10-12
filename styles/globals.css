@@ -3,6 +3,7 @@
 * {
   margin: 0;
   font-family: IBM Plex Mono;
+  scroll-behavior: smooth;
 }
 
 body {
